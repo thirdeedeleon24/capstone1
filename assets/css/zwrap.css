@@ -1,0 +1,2766 @@
+/* GENERAL CSS */
+
+/* Color Scheme */
+
+/*	#808181 Gray */
+/*  #EBEBEB Light Gray*/
+/*  #323333 Dark Gray */
+/*	#F1F2F2 White */
+/*	#CD2028 Red */
+/*	#050606 Black */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+.row {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+h1, h2, h3 {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h4, h5, h6 {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 700;
+}
+
+/*h4.tagline-text {
+	font-size: 2em;
+}*/
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;
+}
+
+/* MAIN NAV CSS */
+
+.bg-light {
+	background-color: #808181 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-family: 'Orbitron', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #F1F2F2;
+	margin: 0 25px;
+	padding: 10px 0;
+	color: #050606;
+	text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+	color: #F1F2F2 !important;
+	font-weight: bolder !important;
+}
+
+a.nav-link:hover {
+	color: #CD2028 !important;
+}
+
+a.nav-link {
+	display: block;
+}
+
+/* PAGE SPECIFIC CSS */
+
+
+
+/* HOMEPAGE CSS */
+
+.homepage-banner-container {
+	min-height: 700px;
+	background-image: url("../images/homepage-main-bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0;
+}
+
+.homepage-banner-content {
+	/* CSS Here */
+}
+
+.homepage-banner-group-ala-carte {
+	height: 680px;
+	background-image: url("../images/custom-wrap-main-image.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 86%;
+	position: relative;
+	bottom: -100px;
+	z-index: 100;
+}
+
+/*img.custom-wrap-center-image {
+	height: 670px;
+	margin: 0 auto;
+	position: relative;
+	bottom: -100px;
+	z-index: 100;
+}*/
+
+.tagline-container {
+	background-color: #323333;
+}
+
+h4.tagline-text {
+	color: #F1F2F2;
+	font-style: italic;
+	/*text-transform: uppercase;*/
+	/*font-size: 2.5em;*/
+}
+
+.custom-wrap {
+	min-height: 600px;
+	border: 1px solid gray;
+}
+
+.wrap-image {
+	max-height: 200px;
+}
+
+.custom-wrap1-icon,
+.custom-wrap1-image1,
+.custom-wrap1-image2 {
+	/*border: 1px solid gray;
+	min-height: 200px; */
+}
+
+.personality-icons {
+	height: 130px;
+	width: 130px;
+	background-color: gray;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 8px solid lightgray;
+	
+}
+
+.muscle-icon {
+	background-image: url("../images/muscle-icon.svg");
+	background-size: 50%;	
+}
+
+.beauty-icon {
+	background-image: url("../images/beauty-icon.svg");
+	background-size: 60%;	
+}
+
+.musician-icon {
+	background-image: url("../images/musician-icon.svg");
+	background-size: 40%;	
+}
+
+.army-icon {
+	background-image: url("../images/army-icon.svg");
+	background-size: 35%;	
+}
+
+.sports-icon {
+	background-image: url("../images/sporty-icon.svg");
+	background-size: 55%;	
+}
+
+.racer-icon {
+	background-image: url("../images/racer-icon.svg");
+	background-size: 50%;	
+}
+
+
+.bar-breaker {
+	min-height: 60px;
+	background-color: #ED1f24;
+	padding: 0;
+}
+
+
+.custom-heading-h3 {
+	background-color: #CD2028;
+	color: #F1F2F2;
+	padding: 10px 0;
+	margin-bottom: 40px;
+}
+
+.custom-heading-h5 {
+	color: #323333;
+	margin-bottom: 20px;
+}
+
+.zwrap-home-info-container {
+	padding: 30px 0;
+	background-color: #EBEBEB;
+
+}
+
+.zwrap-home-info-content {
+	background-color: #EBEBEB;	
+}
+
+/* Z-WRAP TYPES CONTAINER CSS */
+
+.zwrap-types-container {
+	min-height: 150px;
+	background-color: #808181; 
+}
+
+.zwrap-types-content {
+	/*width: 94%;*/
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.wrap-info-text {
+	/*margin: 0 15%;*/
+}
+
+.zwrap-types-content h4 {
+	color: #CD2028;
+}
+
+.wrap-type-icon {
+	width: 100px;
+	height: 100px;
+	background-image: url("../images/temp-car-icon.svg");	
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ala-carte-wrap-icon {
+	background-image: url("../images/ala-carte-wrap-icon-white.svg");	
+}
+
+.full-wrap-icon {
+	background-image: url("../images/full-color-wrap-icon-white.svg");	
+}
+
+.custom-wrap-icon {
+	background-image: url("../images/custom-wrap-icon-white.svg");	
+}
+
+.wrap-info-text {
+	/*min-height: 150px;*/
+
+}
+
+a.custom-button {
+	background-color: #CD2028;
+	padding: 20px 40px;
+	color: #F1F2F2;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a.custom-button:hover {
+	background-color: #050606;
+}
+
+.custom-wrap-images-container {
+	min-height: 400px;
+}
+
+.wrap-image-1,
+.wrap-image-2 {
+	width: 96%;
+	height: 250px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.test-img {
+	width: 90%;	
+}
+
+.test-img2 {
+	width: 80%;	
+}
+
+.muscle-image1 {
+	background-image: url("../images/hilux-001-sm.png");		
+}
+
+.muscle-image2 {
+	background-image: url("../images/toyota-hilux-002-sm.png");	
+}
+
+.beauty-image1 {
+	background-image: url("../images/mini-cooper-001-sm.png");
+	background-size: 85%
+}
+
+.beauty-image2 {
+	background-image: url("../images/mini-cooper-002-sm.png");
+	background-size: 85%
+}
+
+.musician-image1 {
+	background-image: url("../images/honda-crv-001-sm.png");
+	background-size: 90%
+}
+
+.musician-image2 {
+	background-image: url("../images/honda-crv-002-sm.png");
+	background-size: 100%
+}
+
+.army-image1 {
+	background-image: url("../images/mitsubishi-evo-001-sm.png");
+	background-size: 95%
+}
+
+.army-image2 {
+	background-image: url("../images/mitsubishi-evo-002-sm.png");
+	background-size: 95%
+}
+
+.sporty-image1 {
+	background-image: url("../images/ranger-rover-001-sm.png");
+	background-size: 95%
+}
+
+.sporty-image2 {
+	background-image: url("../images/range-rover-002-sm.png");
+	background-size: 100%
+}
+
+.racer-image1 {
+	background-image: url("../images/nissan-gtr-001-sm.png");
+	background-size: 95%
+}
+
+.racer-image2 {
+	background-image: url("../images/nissan-gtr-002-sm.png");
+	background-size: 100%
+}
+
+
+
+/* ALA CARTE WRAP PAGE */
+
+.ala-carte-wrap-banner-container {
+	min-height: 750px;
+}
+
+.ala-carte-wrap-banner-content {
+	min-height: 750px;
+	background-image: url("../images/ala-carte-wrap-banner-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+
+#carouselGallerySlider .carousel-item {
+	/*min-height: 600px;*/
+}
+
+.ala-carte-wrap-icon-container {
+	/*min-height: 300px;*/
+	background-color: #050606;
+}
+
+.ala-carte-img {
+	height: 110px;
+    width: 110px;
+    border: 6px solid #808181;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.hood-img {
+	background-image: url("../images/hood.png");
+}
+
+.roof-img {
+	background-image: url("../images/roof.png");
+}
+
+.bumper-img {
+	background-image: url("../images/bumper.png");
+}
+
+.mirrors-img {
+	background-image: url("../images/mirrors.png");
+}
+
+.threshold-img {
+	background-image: url("../images/thresholds.png");
+}
+
+.others-img {
+	background-image: url("../images/others.png");
+}
+
+p.icon-area-text {
+	font-family: 'Montserrat', sans-serif !important;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: #EBEBEB;	
+}
+
+.ala-carte-wrap-basic-info-container {
+	min-height: 800px;
+	/*border: 1px solid gray;*/
+}
+
+.ala-carte-wrap-main-info-container {
+	/*min-height: 1000px;*/
+	background-color: gray;
+	background-image: url("../images/wraps-bg-01.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+
+.ala-carte-wrap-main-info-content {
+	width: 80%;
+	/*border: 1px solid gray;*/
+}
+
+.ala-carte-wrap-main-info-container h5 {
+	color: #CD2028;
+}
+
+.ala-carte-wrap-main-info-container p {
+	color: #F1F2F2;
+}
+
+
+.main-info-image1,
+.main-info-image2,
+.main-info-image3 {
+	/*min-height: 350px;*/
+	/*border: 1px solid gray;*/
+}
+
+/*.main-info-text-content h3 {
+	background-color: #CD2028;
+	color: #F1F2F2;
+	padding: 8px 0;
+}
+
+.main-info-text-content h5 {
+	color: #F1F2F2;
+}
+
+.main-info-text-content p {
+	color: #F1F2F2;
+}*/
+
+
+/*	#808181 Gray */
+/*  #323333 Dark Gray */
+/*	#F1F2F2 White */
+/*	#CD2028 Red */
+/*	#050606 Black */
+
+/* FULL COLOR WRAP PAGE */
+
+.full-color-wrap-main-info-container {
+	/*min-height: 1000px;*/
+	background-color: gray;
+	background-image: url("../images/wraps-bg-01-flip.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+
+.full-color-wrap-main-info-content {
+	width: 80%;
+	/*border: 1px solid gray;*/
+}
+
+.full-color-wrap-banner-container {
+	min-height: 750px;
+}
+
+.full-color-wrap-banner-content {
+	min-height: 750px;
+	background-image: url("../images/zwrap-full-wrap-bg-sm.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+
+
+.full-color-wrap-icon-container {
+	/*min-height: 300px;*/
+	background-color: #050606;
+}
+
+.full-color-img {
+	height: 110px;
+    width: 110px;
+    background-color: #F1F2F2;
+    border: 6px solid #808181;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.hood-img {
+	background-image: url("../images/hood.png");
+}
+
+.roof-img {
+	background-image: url("../images/roof.png");
+}
+
+.bumper-img {
+	background-image: url("../images/bumper.png");
+}
+
+.mirrors-img {
+	background-image: url("../images/mirrors.png");
+}
+
+.threshold-img {
+	background-image: url("../images/thresholds.png");
+}
+
+.others-img {
+	background-image: url("../images/others.png");
+}
+
+p.icon-area-text {
+	font-family: 'Montserrat', sans-serif !important;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: #EBEBEB;	
+}
+
+.full-color-wrap-main-info-container h5 {
+	color: #CD2028;
+}
+
+.full-color-wrap-main-info-container p {
+	color: #F1F2F2;
+}
+
+/*	#808181 Gray */
+/*  #323333 Dark Gray */
+/*	#F1F2F2 White */
+/*	#CD2028 Red */
+/*	#050606 Black */
+
+ 
+/* CUSTOM WRAP PAGE CONTAINER */
+
+.custom-wrap-banner-content,
+.custom-wrap-banner-container {
+	min-height: 750px;
+}
+
+.custom-wrap-main-info-container {
+	background-color: #EBEBEB;
+}
+
+.custom-wrap-main-info-content {
+	width: 80%;	
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ICON CONTAINER CSS */
+
+.icon-container {
+	/*height: 250px*/;
+	/*line-height: 100%;*/
+	/*height: 100%;
+	width: 100%;*/
+	background-color: white;
+	/*background-image: url("../images/black-diagonal-striped-plastic-texture.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	background-position: fixed;*/
+}
+
+.icon-container h2 {
+	background-color: red;
+
+}
+
+.icon-holder {
+	/*margin: 0 auto;*/
+}
+
+.icon {
+	height: 120px;
+	width: 120px;
+	background-color: lightgray;
+	border: 5px solid red;
+	border-radius: 50%;
+	margin: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.lower-cost-img {
+	background-image: url("../images/lower-cost.svg");
+	background-size: 50%;
+}
+
+.resale-value-img {
+	background-image: url("../images/resale-value.svg");
+	background-size: 60%;
+}
+
+.countless-options-img {
+	background-image: url("../images/countless-options.svg");
+	background-size: 50%;
+}
+
+.installation-time-img {
+	background-image: url("../images/installation-time.svg");
+	background-size: 60%;
+}
+
+.protection-img {
+	background-image: url("../images/protection.svg");
+	background-size: 50%;
+}
+
+.reversible-img {
+	background-image: url("../images/reversible.svg");
+	background-size: 70%;
+}
+
+
+
+/* ZWRAP FAQS PAGE */
+
+.faqs-container h3 {
+	margin-bottom: 10px;
+}
+
+.accordion {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.card .btn-link {
+	white-space: normal;
+}
+
+.question-icon {
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background-image: url("../images/question-solid-red.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 15px;	
+}
+
+.faqs-banner-container {
+	min-height: 800px;
+	background-image: url("../images/faqs-banner-bg-02.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	/*background-size: 100%;*/
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.accordion, 
+.card {
+	border: none;
+}
+
+.card-header {
+	background-color: #EBEBEB;
+}
+
+.card .btn-link {
+	font-family: 'Montserrat', sans-serif;
+	color: #323333;
+	text-decoration: none;
+}
+
+/* Z-WRAP SWATCHES PAGE */
+
+.zwrap-swatches-page-banner-container {
+	min-height: 750px;
+}
+
+.zwrap-swatches-page-banner-content {
+	min-height: 750px;
+	background-image: url("../images/swatches-page-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+
+
+
+/*.swatches-banner-container {
+	min-height: 600px;
+	border: 1px solid gray;
+	background-color: lightgray;
+}
+
+.swatch-family {
+	min-height: 250px;
+	border: 1px solid black;
+}
+
+.swatch-color {
+	height: 50px;
+	width: 100px;
+	border: 1px solid gray;
+	margin: 0 auto;
+}*/
+
+.swatch-color-sample {
+	height: 50px;
+	width: 100px;
+	margin-bottom: 15px;
+	border: 1px solid gray;
+}
+
+.swatch-color-sample {
+	background-repeat: no-repeat;
+	background-position: -5px -5px;
+	background-size: 120%;
+}
+
+/* Pearl */
+
+.pearl-white {
+	background-image: url("../images/swatches/pearl-white.png");
+}
+
+.pearl-light-green {
+	background-image: url("../images/swatches/pearl-light-green.png");
+}
+
+.pearl-dark-green {
+	background-image: url("../images/swatches/pearl-dark-green.png");
+}
+
+/* Satin */
+
+.satin-white {
+	background-image: url("../images/swatches/satin-white.png");
+}
+
+.satin-white-pearl {
+	background-image: url("../images/swatches/satin-white-pearl.png");
+}
+
+.satin-bubblegum-pink {
+	background-image: url("../images/swatches/satin-bubblegum-pink.png");
+}
+
+.satin-carmine-red {
+	background-image: url("../images/swatches/satin-carmine-red.png");
+}
+
+.satin-khaki-green {
+	background-image: url("../images/swatches/satin-khaki-green.png");
+}
+
+.satin-black {
+	background-image: url("../images/swatches/satin-black.png");
+}
+
+/* Satin Metallic */
+
+.satin-metallic-dove-grey {
+	background-image: url("../images/swatches/satin-metallic-dove-grey.png");
+}
+
+.satin-metallic-dark-blue {
+	background-image: url("../images/swatches/satin-metallic-dark-blue.png");
+}
+
+.satin-metallic-light-brown {
+	background-image: url("../images/swatches/satin-metallic-light-brown.png");
+}
+
+.satin-metallic-hans-brown {
+	background-image: url("../images/swatches/satin-metallic-hans-brown.png");
+}
+
+.satin-metallic-grey-blue {
+	background-image: url("../images/swatches/satin-metallic-grey-blue.png");
+}
+
+.satin-metallic-light-grey {
+	background-image: url("../images/swatches/satin-metallic-light-grey.png");
+}
+
+.satin-metallic-graphite {
+	background-image: url("../images/swatches/satin-khaki-green.png");
+}
+
+/* Diamond */
+
+.diamond-white {
+	background-image: url("../images/swatches/diamond-white.png");
+}
+
+.diamond-amber {
+	background-image: url("../images/swatches/diamond-amber.png");
+}
+
+.diamond-red {
+	background-image: url("../images/swatches/diamond-red.png");
+}
+
+.diamond-blue {
+	background-image: url("../images/swatches/diamond-blue.png");
+}
+
+.diamond-silver {
+	background-image: url("../images/swatches/diamond-silver.png");
+}
+
+/* Gloss */
+
+.gloss-white {
+	background-color: #F4F7F0;
+}
+
+.gloss-yellow {
+	background-color: #FAD200;
+}
+
+.gloss-darkyellow {
+	background-color: #F2BA00;
+}
+
+.gloss-orange {
+	background-color: #E63C12;
+}
+
+.gloss-lightgrey {
+	background-color: #CDCAC4;
+}
+
+.gloss-red {
+	background-color: #E5231F;
+}
+
+.gloss-cardinalred {
+	background-color: #E30D14;
+}
+
+.gloss-softred {
+	background-color: #E00919;
+}
+
+.gloss-carminered {
+	background-color: #D51116;
+}
+
+.gloss-burgundy {
+	background-color: #A21A16;
+}
+
+.gloss-lightblue {
+	background-color: #0078BF;
+}
+
+.gloss-intenseblue {
+	background-color: #1E5AA6;
+}
+
+.gloss-blue {
+	background-color: #294898;
+}
+
+.gloss-darkblue {
+	background-color: #323B60;
+}
+
+.gloss-indigoblue {
+	background-color: #22224B;
+}
+
+.gloss-ambulanceyellow {
+	background-color: #FFF931;
+}
+
+.gloss-limegreen {
+	background-color: #89BD24;
+}
+
+.gloss-grassgreen {
+	background-color: #00A13A;
+}
+
+.gloss-emeraldgreen {
+	background-color: #576F4B;
+}
+
+.gloss-darkgreen {
+	background-color: #004723;
+}
+
+.gloss-grey{
+	background-color: #6B5B56;
+}
+
+.gloss-darkgrey{
+	background-color: #585F60;
+}
+
+.gloss-black {
+	background-color: #191713;
+}
+
+.gloss-lightpistachio {
+	background-color: #C9E1BF;
+}
+
+.gloss-cloudyblue {
+	background-color: #C7D8EC;
+}
+
+.gloss-seabreezeblue {
+	background-color: #75A9B7;
+}
+
+.gloss-smokyblue {
+	background-color: #4C80AF;
+}
+
+/* Matte Metallic */
+
+.matte-metallic-silver {
+	background-image: url("../images/swatches/matte-metallic-silver.png");
+}
+
+.matte-metallic-anthracite {
+	background-image: url("../images/swatches/matte-metallic-anthracite.png");
+}
+
+.matte-metallic-gunmetal {
+	background-image: url("../images/swatches/matte-metallic-gunmetal.png");
+}
+
+.matte-metallic-charcoal {
+	background-image: url("../images/swatches/matte-metallic-charcoal.png");
+}
+
+.matte-metallic-pink {
+	background-image: url("../images/swatches/matte-metallic-pink.png");
+}
+
+.matte-metallic-cherry {
+	background-image: url("../images/swatches/matte-metallic-cherry.png");
+}
+
+.matte-metallic-garnetred {
+	background-image: url("../images/swatches/matte-metallic-garnetred.png");
+}
+
+.matte-metallic-blazeorange {
+	background-image: url("../images/swatches/matte-metallic-blazeorange.png");
+}
+
+.matte-metallic-brown {
+	background-image: url("../images/swatches/matte-metallic-brown.png");
+}
+
+.matte-metallic-yellowgreen {
+	background-image: url("../images/swatches/matte-metallic-yellowgreen.png");
+}
+
+.matte-metallic-applegreen {
+	background-image: url("../images/swatches/matte-metallic-applegreen.png");
+}
+
+.matte-metallic-emerald {
+	background-image: url("../images/swatches/matte-metallic-emerald.png");
+}
+
+.matte-metallic-frostyblue {
+	background-image: url("../images/swatches/matte-metallic-frostyblue.png");
+}
+
+.matte-metallic-powderblue {
+	background-image: url("../images/swatches/matte-metallic-powderblue.png");
+}
+
+.matte-metallic-grey {
+	background-image: url("../images/swatches/matte-metallic-grey.png");
+}
+
+.matte-metallic-blue {
+	background-image: url("../images/swatches/matte-metallic-blue.png");
+}
+
+.matte-metallic-brilliantblue {
+	background-image: url("../images/swatches/matte-metallic-brilliantblue.png");
+}
+
+.matte-metallic-purple {
+	background-image: url("../images/swatches/matte-metallic-purple.png");
+}
+
+.matte-metallic-nightblue {
+	background-image: url("../images/swatches/matte-metallic-nightblue.png");
+}
+
+
+/* Extreme Texture */
+
+.brushed-metallic-aluminum {
+	background-image: url("../images/swatches/brushed-metallic-aluminum.png");
+	background-position: center;
+}
+
+.brushed-metallic-black {
+	background-image: url("../images/swatches/brushed-metallic-black.png");
+	background-position: center;
+}
+
+.brushed-metallic-bronze {
+	background-image: url("../images/swatches/brushed-metallic-bronze.png");
+	background-position: center;
+}
+
+.brushed-metallic-steel {
+	background-image: url("../images/swatches/brushed-metallic-steel.png");
+	background-position: center;
+}
+
+.brushed-metallic-titanium {
+	background-image: url("../images/swatches/brushed-metallic-titanium.png");
+	background-position: center;
+}
+
+.carbon-fiber-black {
+	background-image: url("../images/swatches/carbon-fiber-black.png");
+	background-position: center;
+}
+
+.carbon-fiber-white {
+	background-image: url("../images/swatches/carbon-fiber-white.png");
+	background-position: center;
+}
+
+
+
+/* Matte */
+
+.matte-white {
+	background-image: url("../images/swatches/matte-white.png");
+}
+
+.matte-orange {
+	background-image: url("../images/swatches/matte-orange.png");
+}
+
+.matte-khaki-green {
+	background-image: url("../images/swatches/matte-khaki-green.png");
+}
+
+.matte-dark-grey {
+	background-image: url("../images/swatches/matte-dark-grey.png");
+}
+
+.matte-black {
+	background-image: url("../images/swatches/matte-black.png");
+}
+
+.matte-blue {
+	background-image: url("../images/swatches/matte-blue.png");
+}
+
+/* Gloss Metallic */
+
+.gloss-metallic-silver {
+	background-image: url("../images/swatches/gloss-metallic-silver.png");
+}
+
+.gloss-metallic-quicksilver {
+	background-image: url("../images/swatches/gloss-metallic-quicksilver.png");
+}
+
+.gloss-metallic-radioactive {
+	background-image: url("../images/swatches/gloss-metallic-radioactive.png");
+}
+
+.gloss-metallic-spark {
+	background-image: url("../images/swatches/gloss-metallic-spark.png");
+}
+
+.gloss-metallic-bright-blue {
+	background-image: url("../images/swatches/gloss-metallic-bright-blue.png");
+}
+
+.gloss-metallic-magnetic-burst {
+	background-image: url("../images/swatches/gloss-metallic-magnetic-burst.png");
+}
+
+.gloss-metallic-dark-blue {
+	background-image: url("../images/swatches/gloss-metallic-dark-blue.png");
+}
+
+.gloss-metallic-gold {
+	background-image: url("../images/swatches/gloss-metallic-gold.png");
+}
+
+.gloss-metallic-brown {
+	background-image: url("../images/swatches/gloss-metallic-brown.png");
+}
+
+.gloss-metallic-grey {
+	background-image: url("../images/swatches/gloss-metallic-grey.png");
+}
+
+.gloss-metallic-acid-green {
+	background-image: url("../images/swatches/gloss-metallic-acid-green.png");
+}
+
+.gloss-metallic-eclipse {
+	background-image: url("../images/swatches/gloss-metallic-eclipse.png");
+}
+
+.gloss-metallic-black {
+	background-image: url("../images/swatches/gloss-metallic-black.png");
+}
+
+/* Conform Chrome */
+
+.conforme-chrome-blue {
+	background-image: url("../images/swatches/conforme-chrome-blue.png");
+}
+
+.conforme-chrome-red {
+	background-image: url("../images/swatches/conforme-chrome-red.png");
+}
+
+.conforme-chrome-gold {
+	background-image: url("../images/swatches/conforme-chrome-gold.png");
+}
+
+.conforme-chrome-silver {
+	background-image: url("../images/swatches/conforme-chrome-silver.png");
+}
+
+.conforme-chrome-black {
+	background-image: url("../images/swatches/conforme-chrome-black.png");
+}
+
+
+/* ColorFlow Satin */
+
+.colorflow-satin-fresh-spring {
+	background-image: url("../images/swatches/colorflow-satin-fresh-spring.png");
+}
+
+.colorflow-satin-roaring-thunder {
+	background-image: url("../images/swatches/colorflow-satin-roaring-thunder.png");
+}
+
+.colorflow-satin-rising-sun {
+	background-image: url("../images/swatches/colorflow-satin-rising-sun.png");
+}
+
+.colorflow-satin-urban-jungle {
+	background-image: url("../images/swatches/colorflow-satin-urban-jungle.png");
+}
+
+.colorflow-satin-rushing-riptide {
+	background-image: url("../images/swatches/colorflow-satin-rushing-riptide.png");
+}
+
+.colorflow-satin-lighting-ridge {
+	background-image: url("../images/swatches/colorflow-satin-lighting-ridge.png");
+}
+
+/* ColorFlow Gloss */
+
+.colorflow-gloss-fresh-spring {
+	background-image: url("../images/swatches/colorflow-gloss-fresh-spring.png");
+}
+
+.colorflow-gloss-roaring-thunder {
+	background-image: url("../images/swatches/colorflow-gloss-roaring-thunder.png");
+}
+
+.colorflow-gloss-rising-sun {
+	background-image: url("../images/swatches/colorflow-gloss-rising-sun.png");
+}
+
+.colorflow-gloss-urban-jungle {
+	background-image: url("../images/swatches/colorflow-gloss-urban-jungle.png");
+}
+
+.colorflow-gloss-rushing-riptide {
+	background-image: url("../images/swatches/colorflow-gloss-rushing-riptide.png");
+}
+
+.colorflow-gloss-lighting-ridge {
+	background-image: url("../images/swatches/colorflow-gloss-lighting-ridge.png");
+}
+
+
+/* CUSTOM WRAP PAGE CSS */
+
+.custom-wrap-banner-1,
+.custom-wrap-banner-2,
+.custom-wrap-banner-3,
+.custom-wrap-banner-4,
+.custom-wrap-banner-5,
+.custom-wrap-banner-6 {
+	min-height: 800px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.custom-wrap-banner-1 {
+	background-image: url("../images/custom-wrap-banner-bg-01.png");
+}
+
+.custom-wrap-banner-2 {
+	background-image: url("../images/custom-wrap-banner-bg-02.png");
+}
+
+.custom-wrap-banner-3 {
+	background-image: url("../images/custom-wrap-banner-bg-03.png");
+}
+
+.custom-wrap-banner-4 {
+	background-image: url("../images/custom-wrap-banner-bg-04.png");
+}
+
+.custom-wrap-banner-5 {
+	background-image: url("../images/custom-wrap-banner-bg-05.png");
+}
+
+.custom-wrap-banner-6 {
+	background-image: url("../images/custom-wrap-banner-bg-06.png");
+}
+
+.custom-wrap-icon-container {
+	/*min-height: 300px;*/
+	background-color: #050606;
+}
+
+.custom-wrap-img {
+	height: 125px;
+    width: 125px;
+    background-color: #F1F2F2;
+    border: 6px solid #808181;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+/*	#808181 Gray */
+/*  #323333 Dark Gray */
+/*	#F1F2F2 White */
+/*	#CD2028 Red */
+/*	#050606 Black */
+
+.muscle-icon-img {
+	background-image: url("../images/muscle-icon.svg");
+	background-size: 50%;
+}
+
+.girly-icon-img {
+	background-image: url("../images/girly-icon.svg");
+	background-size: 60%;
+}
+
+.musician-icon-img {
+	background-image: url("../images/musician-icon.svg");
+	background-size: 40%;
+}
+
+.military-icon-img {
+	background-image: url("../images/military-icon.svg");
+	background-size: 35%;
+}
+
+.sporty-icon-img {
+	background-image: url("../images/sporty-icon.svg");
+	background-size: 55%;
+}
+
+.racer-icon-img {
+	background-image: url("../images/racer-icon.svg");
+	background-size: 50%;
+}
+
+p.icon-area-text {
+	font-family: 'Montserrat', sans-serif !important;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: #EBEBEB;	
+}
+
+
+
+
+
+
+
+.custom-wrap-basic-info-container {
+	/*min-height: 300px;*/
+	border: 1px solid black;
+	background-color: gray;
+}
+
+.custom-sample{
+	/*min-height: 400px;*/
+	border: 1px solid black;
+}
+
+/*.custom-wrap-icon {
+	height: 130px;
+    width: 130px;
+    background-color: red;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 auto;
+}*/
+
+img.personality-icon {
+	height: 80px;
+	width: auto;
+}
+
+
+
+/* HEADER CONTAINER CSS */
+
+header {
+	background-color: #CD2028;
+}
+
+.zwrap-logo {
+	/*background-color: gray;*/
+	/*margin: 20px;*/
+	/*background-image: url(../images/zwrap-logo-white-red.svg);*/
+	/*height: 50px;
+	width: 150px;
+	background-image: url(../images/zwrap-logo-light.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;*/
+	/*background-size: 80%;*/
+}
+
+.zwrap-logo-container {
+	padding: 0;
+	background-color: #CD2028; 
+}
+
+.zwrap-header-logo {
+	height: 100px;
+	margin: 0;
+}
+
+img.zwrap-header-logo {
+	/*margin: 0 auto;*/
+}
+
+.d-block {
+	margin: 0;
+}
+
+
+
+
+
+/* BANNER CONTAINER CSS */
+
+
+
+
+
+
+
+
+/* MAIN-INFO CONTAINER */
+
+.main-info-container {
+	/*min-height: 600px;
+	width: : 100%;*/
+	/*max-width: 90%;*/
+	/*line-height: 600px;*/
+	/*background-color: lightgray;*/
+}
+
+.main-info-container {
+	background-image: url("../images/wraps-bg-01.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-position: fixed;
+}
+
+.info-text {
+	border: 1px solid white;
+	min-height: 300px;
+}
+
+.info-image-1 {
+	min-height: 150px;
+	border: 1px solid white;
+}
+
+.info-image-2 {
+	min-height: 150px;
+	border: 1px solid white;
+}
+
+
+
+.info-big-image {
+	min-height: 300px;
+	border: 1px solid white;	
+}
+
+/* ADDITIONAL INFO CSS */
+
+.additional-info-container {
+	height: 300px;
+	line-height: 300px;
+	background-color: gray;
+}
+
+/* FOOTER CSS */
+
+.footer-container {
+	background-color: #050606;	
+}
+
+footer {
+	width: 90%;
+	min-height: 100px;
+	background-color: #050606;	
+}
+
+a.ziebart-website-link {
+	display: block;
+}
+
+img.footer-ziebart-text-logo {
+	height: 40px;
+	/*margin: 0 auto;*/
+}
+
+.socmed-links-container {
+
+	/*border: 1px solid white;*/	
+}
+
+.footer-form-container {
+	min-height: 200px;	
+}
+
+footer h3 {
+	color: #CD2028;
+}
+
+a.footer-socmed-icon {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	font-size: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-sizing: content-box;
+}
+
+.fb-link {
+	background-image: url("../images/fb-icon-white.svg");
+	background-size: 45%;
+}
+
+.ig-link {
+	background-image: url("../images/ig-icon-white.svg");
+	background-size: 80%;
+}
+
+.yt-link {
+	background-image: url("../images/yt-icon-white.svg");
+	background-size: 100%;	
+}
+
+p.footer-text {
+	color: #808181;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+a.ziebart-website-link {
+	text-decoration: none;
+	font-size: 0;
+	/*display: block;*/
+	/*height: 50px;*/
+	/*background-image: url("../images/ziebart-text-logo-white.svg");
+	background-repeat: no-repeat;
+	background-position: center;*/
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #CD2028;
+    border-color: #CD2028;
+}
+
+
+
+/* TEST ONLY */
+
+/*.img2 {
+	position: relative;
+	z-index: 500px;
+	bottom: -50px;
+}
+*/
+
+
+
+
+/* COLOR SWATCHES */
+
+/*	#808181 Gray */
+/*  #EBEBEB Light Gray*/
+/*  #323333 Dark Gray */
+/*	#F1F2F2 White */
+/*	#CD2028 Red */
+/*	#050606 Black */
+
+
+/* LANDING PAGE CSS */
+
+.landing-page-container {
+	max-height: 600px;
+}
+
+#zwrapVideo {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	z-index: -1000;
+}
+
+.video-overlay {
+	background-image: url("../images/download.png");
+	background-color: rgba(0,0,0,.5);
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	bottom: 0;	
+	z-index: 900;
+}
+
+.landingpage-info-container {
+	position: absolute;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    /*max-height: 600px;*/
+    z-index: 999;
+    top: 0;
+	bottom: 0;
+	/*background-color: red;*/
+}
+
+.landingpage-info-content {
+	/*min-height: 600px;*/
+	min-height: 100%;
+	/*border: 1px solid gray;*/
+}
+
+.landingpage-zwrap-logo {
+	/*margin-top: 50px;*/
+	height: 130px;
+	/*border: 1px solid gray;*/
+}
+
+.landingpage-header-container {
+	/*border: 1px solid gray;*/
+}
+
+.landingpage-zwrap-cargroup-image {
+	position: absolute;
+	bottom: 0px;
+	/*border: 1px solid gray;*/
+}
+
+.landingpage-tagline {
+	/*position: relative;
+	top: 80px;*/
+	color: #F1F2F2;
+	/*border: 1px solid gray;*/
+}
+
+a.custom-button-landing {
+	border: 3px solid white;
+	background-color: black;
+	padding: 20px 40px;
+	background-color: #CD2028;
+	text-decoration: none;
+	color: #F1F2F2;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.landingpage-text-content {
+	position: absolute;
+	bottom: 280px;
+	/*border: 1px solid gray;*/
+		
+}
+
+.secondary-text {
+	font-family: 'Orbitron', sans-serif;	
+	font-size: 1.8em;
+	font-weight: bold;
+	/*background-color: #050606;*/
+	background-color: rgba(255,255,255,.3);
+	color: #050606;
+	padding: 15px;
+}
+
+/*	#808181 Gray */
+/*  #EBEBEB Light Gray*/
+/*  #323333 Dark Gray */
+/*	#F1F2F2 White */
+/*	#CD2028 Red */
+/*	#050606 Black */
+
+.thirdee {
+	position: relative;
+	z-index: 505;
+	top: 550px;	
+}
+
+.texttext {
+	position: relative;
+	z-index: 2000;
+}
+
+.custom-button-landing h3 {
+	margin-bottom: 0;
+}
+
+a.custom-button-landing:hover {
+	background-color: #050606;
+	color: #808181;
+}
+
+.landing-page-container nav {
+	position: relative;
+	z-index: 501;
+}
+
+
+
+/*	#808181 Gray */
+/*  #EBEBEB Light Gray*/
+/*  #323333 Dark Gray */
+/*	#F1F2F2 White */
+/*	#CD2028 Red */
+/*	#050606 Black */
+
+
+
+/* MEDIA QUERY CSS */
+
+
+
+/* Mobile Phones */
+
+@media only screen and (max-width: 768px) {
+
+	/* GENERAL CSS - Small Device */
+
+	.zwrap-header-logo {
+		height: 35px;
+		margin: 0;
+	}
+
+	.carousel-item {
+    	/*min-height: 200px;*/
+	}
+
+	.zwrap-types-content {
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+
+	.wrap-type-icon {
+		width: 90px;
+		height: 90px;
+	}
+
+	a.custom-button {
+	    background-color: #CD2028;
+	    padding: 15px 25px;
+	    color: #F1F2F2;
+	    text-decoration: none;
+	    text-transform: uppercase;
+	}
+
+	img.footer-ziebart-text-logo {
+    	margin: 0 auto;
+	}
+
+	.footer-form-container {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	/* ALA CARTE WRAP PAGE CSS - Small Device */
+
+	.ala-carte-wrap-banner-content,
+	.ala-carte-wrap-banner-container {
+		min-height: 200px;
+	}
+
+	.custom-heading-h3 {
+	    font-size: 1.4em;
+	}
+	
+	.ala-carte-img {
+    	height: 60px;
+    	width: 60px;
+    	border: 3px solid #808181;
+	}
+
+	p.icon-area-text {		
+		font-weight: bold;
+		font-size: .8em;
+	}
+
+	.ala-carte-wrap-main-info-content {
+		width: 94%;	
+	}
+
+	/* FULL COLOR WRAP PAGE CSS - Small Device */
+
+	/*.full-color-wrap-banner-content,
+	.full-color-wrap-banner-container {
+		min-height: 200px;
+	}*/
+
+	.custom-heading-h3 {
+	    font-size: 1.4em;
+	}
+	
+	.full-color-img {
+    	height: 60px;
+    	width: 60px;
+    	border: 3px solid #808181;
+	}
+
+	p.icon-area-text {		
+		font-weight: bold;
+		font-size: .8em;
+	}
+
+	.full-color-wrap-main-info-content {
+		width: 94%;	
+	}
+
+	/* CUSTOM WRAP PAGE CSS - Small Device */
+
+	.custom-wrap-banner-content,
+	.custom-wrap-banner-container {
+		min-height: 200px;
+	}
+
+	.custom-heading-h3 {
+	    font-size: 1.4em;
+	}
+	
+	
+
+	p.icon-area-text {		
+		font-weight: bold;
+		font-size: .8em;
+	}
+
+	.custom-wrap-main-info-content {
+		width: 94%;	
+	}
+
+	/*.custom-wrap-banner-1,
+	.custom-wrap-banner-2,
+	.custom-wrap-banner-3,
+	.custom-wrap-banner-4,
+	.custom-wrap-banner-5,
+	.custom-wrap-banner-6 {
+		min-height: 200px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}*/
+
+	/* SWATCHES PAGE CSS - Small Device */
+	
+	.zwrap-swatches-page-banner-container {
+		min-height: 250px;
+	}
+	.zwrap-swatches-page-banner-content {
+		min-height: 250px;
+	}
+
+	/* LANDING PAGE CSS - Small Device */
+
+	.landingpage-zwrap-logo {
+		height: 50px;
+	}
+
+	.landing-page-container {
+		max-height: 300px;
+	}
+	
+	/*.landing-page-container,
+	.landing-page-content {
+		max-height: 300px;
+	} */
+
+	#zwrapVideo {
+		height: 300px;
+	}
+
+	.video-overlay {
+		height: 300px;
+	}
+
+	
+	/* HOMEPAGE CSS - Small Device  */
+
+	
+	/* Z-WRAP TYPES CONTAINER */
+
+	.homepage-banner-container {
+		min-height: 280px;
+	}
+
+	.homepage-banner-group-ala-carte {
+		height: 280px;
+		background-size: 80%;
+		position: static;
+	}
+
+	/*.nd3test {
+		min-height: 250px;
+		background-size: 95%;
+		position: static;
+	}*/
+
+
+	/* BANNERS CSS */
+
+	
+	/* FAQS PAGE */
+	/*.faqs-banner-container {
+		min-height: 200px;
+		background-size: 100%;
+		background-attachment: scroll;
+	}*/
+
+}
+
+
+
+
+
+/* Tablets */
+
+
+
+ 
+@media only screen and (min-width: 600px) {
+	.banner-container {
+		min-height: 600px;
+	}
+
+	h4.tagline-text {
+		color: #F1F2F2;
+		font-style: italic;
+		font-size: 1.1em;
+	}
+
+	/*h4.tagline-text {
+		font-size: 1em;
+	}*/
+
+	/*.homepage-banner-container {
+		min-height: 400px;
+	}
+
+	.homepage-banner-group-ala-carte {
+		height: 400px;
+		background-size: 80%;
+		position: static;
+	}
+
+	h4.tagline-text {
+		font-size: 1em;
+	}*/
+
+	/* HOME PAGE CSS */
+
+	/*.homepage-banner-container {
+		min-height: 250px;
+	}
+
+	img.custom-wrap-center-image {
+		height: 140px;
+		position: relative;
+		bottom: -70px;
+	}*/
+
+	/* ALA CARTE WRAP PAGE CSS - Tablet Device */
+
+	/*.ala-carte-wrap-banner-content,
+	.ala-carte-wrap-banner-container {
+		min-height: 350px;
+	}
+
+	.ala-carte-wrap-icon-container {
+    	min-height: 200px;
+	}
+
+	.ala-carte-img {
+    	height: 80px;
+    	width: 80px;
+    	border: 3px solid #808181;
+	}
+
+	.custom-heading-h3 {
+	    font-size: 1.6em;
+	}
+*/
+
+
+
+	.footer-test {
+		position: absolute;
+		bottom: 0;
+	}
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+/*@media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/*@media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {...}*/
+
+
+/* MEDIA QUERY CSS */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.wrap-info-text {
+		min-height: 130px;
+	}
+	
+	/* BANNERS CSS */
+
+	/* FAQS BANNER */
+	.faqs-banner-container {
+		min-height: 200px;
+		background-size: cover;
+		background-attachment: scroll;
+	}
+
+	/* SWATCHES BANNER */
+	.zwrap-swatches-page-banner-container {
+		min-height: 200px;
+	}
+
+	.zwrap-swatches-page-banner-content {
+		min-height: 200px;
+		background-size: cover;
+		background-attachment: scroll;
+	}
+
+	/* CUSTOM WRAP BANNER */
+
+	.custom-wrap-banner-content, .custom-wrap-banner-container {
+    	min-height: 200px;
+	}
+
+	.custom-wrap-banner-1,
+	.custom-wrap-banner-2,
+	.custom-wrap-banner-3,
+	.custom-wrap-banner-4,
+	.custom-wrap-banner-5,
+	.custom-wrap-banner-6 {
+		min-height: 200px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: scroll;
+	}
+
+
+	/* CUSTOM WRAP GALLERY SLIDER */
+
+	#carouselGallerySlider .carousel-item {
+		/*min-height: 180px*/
+	}
+
+	/* CUSTOM WRAP - ICON CONTAINER */
+
+	.custom-wrap-img {
+    	height: 60px;
+    	width: 60px;
+    	border: 5px solid #808181;
+	}
+
+	/* FULL WRAP - ICON CONTAINER */
+
+	.full-color-img {
+    	height: 60px;
+    	width: 60px;
+    	border: 5px solid #808181;
+	}
+
+	/* ALA CARTE - ICON CONTAINER */
+
+	.ala-carte-img {
+    	height: 60px;
+    	width: 60px;
+    	border: 5px solid #808181;
+	}
+
+	/* FULL WRAP PAGE BANNER */
+
+	.full-color-wrap-banner-container {
+		min-height: 200px;
+	}
+
+	.full-color-wrap-banner-content {
+		min-height: 200px;
+		background-image: url("../images/zwrap-full-wrap-bg-sm.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	/* ALA CARTE PAGE BANNER */
+
+	.ala-carte-wrap-banner-container {
+		min-height: 200px;
+	}
+
+	.ala-carte-wrap-banner-content {
+		min-height: 200px;
+		background-image: url("../images/ala-carte-wrap-banner-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	/* HOME PAGE BANNER */
+
+	.homepage-banner-container {
+		min-height: 200px;
+		background-image: url("../images/homepage-main-bg.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+		padding: 0;
+	}
+
+	.homepage-banner-group-ala-carte {
+		height: 200px;
+		background-image: url("../images/custom-wrap-main-image.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 96%;
+		position: static;
+	}
+} 
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.wrap-info-text {
+		min-height: 130px;
+	}
+
+	/* BANNERS CSS */
+	
+	/* FAQS BANNER */
+	.faqs-banner-container {
+		min-height: 300px;
+		background-size: 100%;
+		background-attachment: scroll;
+	}
+
+	/* SWATCHES BANNER */
+	.zwrap-swatches-page-banner-container {
+		min-height: 300px;
+	}
+
+	.zwrap-swatches-page-banner-content {
+		min-height: 300px;
+		background-image: url("../images/swatches-page-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: scroll;
+	}
+
+	/* CUSTOM WRAP BANNER */
+	
+	.custom-wrap-banner-content, .custom-wrap-banner-container {
+    	min-height: 300px;
+	}
+
+	.custom-wrap-banner-1,
+	.custom-wrap-banner-2,
+	.custom-wrap-banner-3,
+	.custom-wrap-banner-4,
+	.custom-wrap-banner-5,
+	.custom-wrap-banner-6 {
+		min-height: 300px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: scroll;
+	}
+
+	/* CUSTOM WRAP GALLERY SLIDER */
+	
+	#carouselGallerySlider .carousel-item {
+		/*min-height: 300px*/
+	}
+
+	/* CUSTOM WRAP - ICON CONTAINER */
+
+	.custom-wrap-img {
+    	height: 70px;
+    	width: 70px;
+    	border: 4px solid #808181;
+    }
+    
+    /* FULL WRAP - ICON CONTAINER */
+
+	.full-color-img {
+    	height: 70px;
+    	width: 70px;
+    	border: 4px solid #808181;
+	}
+
+	/* ALA CARTE - ICON CONTAINER */
+
+	.ala-carte-img {
+    	height: 70px;
+    	width: 70px;
+    	border: 5px solid #808181;
+	}
+
+	/* FULL WRAP PAGE BANNER */
+
+	.full-color-wrap-banner-container {
+		min-height: 300px;
+	}
+
+	.full-color-wrap-banner-content {
+		min-height: 300px;
+		background-image: url("../images/zwrap-full-wrap-bg-sm.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	/* ALA CARTE PAGE BANNER */
+
+	.ala-carte-wrap-banner-container {
+		min-height: 300px;
+	}
+
+	.ala-carte-wrap-banner-content {
+		min-height: 300px;
+		background-image: url("../images/ala-carte-wrap-banner-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	/* HOME PAGE BANNER */
+
+	.homepage-banner-container {
+		min-height: 300px;
+		background-image: url("../images/homepage-main-bg.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+		padding: 0;
+	}
+
+	.homepage-banner-group-ala-carte {
+		height: 300px;
+		background-image: url("../images/custom-wrap-main-image.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 96%;
+		position: static;
+	}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.wrap-info-text {
+		min-height: 130px;
+	}
+	
+	/* BANNERS CSS */
+
+	/* FAQS BANNER */
+	.faqs-banner-container {
+		min-height: 400px;
+		background-size: 100%;
+		background-attachment: scroll;
+	}
+
+	/* SWATCHES BANNER */
+	.zwrap-swatches-page-banner-container {
+		min-height: 400px;
+	}
+
+	.zwrap-swatches-page-banner-content {
+		min-height: 400px;
+		background-image: url("../images/swatches-page-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: scroll;
+	}
+
+	/* CUSTOM WRAP BANNER */
+	
+	.custom-wrap-banner-content, .custom-wrap-banner-container {
+    	min-height: 400px;
+	}
+
+	.custom-wrap-banner-1,
+	.custom-wrap-banner-2,
+	.custom-wrap-banner-3,
+	.custom-wrap-banner-4,
+	.custom-wrap-banner-5,
+	.custom-wrap-banner-6 {
+		min-height: 400px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: scroll;
+	}
+
+	/* CUSTOM WRAP GALLERY SLIDER */
+	
+	#carouselGallerySlider .carousel-item {
+		/*min-height: 400px*/
+	}
+
+	/* CUSTOM WRAP GALLERY SLIDER */
+
+	.custom-wrap-img {
+    	height: 90px;
+    	width: 90px;
+    	border: 5px solid #808181;
+    }
+    
+    /* FULL WRAP - ICON CONTAINER */
+
+	.full-color-img {
+    	height: 90px;
+    	width: 90px;
+    	border: 5px solid #808181;
+	}
+
+	/* ALA CARTE - ICON CONTAINER */
+
+	.ala-carte-img {
+    	height: 90px;
+    	width: 90px;
+    	border: 5px solid #808181;
+	}
+
+	/* FULL WRAP PAGE BANNER */
+
+	.full-color-wrap-banner-container {
+		min-height: 400px;
+	}
+
+	.full-color-wrap-banner-content {
+		min-height: 400px;
+		background-image: url("../images/zwrap-full-wrap-bg-sm.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	/* ALA CARTE PAGE BANNER */
+
+	.ala-carte-wrap-banner-container {
+		min-height: 400px;
+	}
+
+	.ala-carte-wrap-banner-content {
+		min-height: 400px;
+		background-image: url("../images/ala-carte-wrap-banner-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	/* HOME PAGE BANNER */
+
+	.homepage-banner-container {
+		min-height: 400px;
+		background-image: url("../images/homepage-main-bg.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+		padding: 0;
+	}
+
+	.homepage-banner-group-ala-carte {
+		height: 400px;
+		background-image: url("../images/custom-wrap-main-image.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 96%;
+		position: static;
+	}
+		
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+	.wrap-info-text {
+		min-height: 250px;
+	}
+
+	/* BANNERS CSS */
+
+	/* FAQS BANNER */
+	.faqs-banner-container {
+		min-height: 600px;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	/* SWATCHES BANNER */
+	.zwrap-swatches-page-banner-container {
+		min-height: 600px;
+	}
+
+	.zwrap-swatches-page-banner-content {
+		min-height: 600px;
+		background-image: url("../images/swatches-page-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	/* SWATCHES BANNER */
+	.zwrap-swatches-page-banner-container {
+		min-height: 600px;
+	}
+
+	.zwrap-swatches-page-banner-content {
+		min-height: 600px;
+		background-image: url("../images/swatches-page-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 96%;
+		background-attachment: fixed;
+	}
+
+	/* CUSTOM WRAP BANNER */
+	
+	.custom-wrap-banner-content, .custom-wrap-banner-container {
+    	min-height: 600px;
+	}
+
+	.custom-wrap-banner-1,
+	.custom-wrap-banner-2,
+	.custom-wrap-banner-3,
+	.custom-wrap-banner-4,
+	.custom-wrap-banner-5,
+	.custom-wrap-banner-6 {
+		min-height: 600px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	/* CUSTOM WRAP GALLERY SLIDER */
+	
+	#carouselGallerySlider .carousel-item {
+		/*min-height: 600px*/
+	}
+
+	/* CUSTOM WRAP GALLERY SLIDER */
+
+	.custom-wrap-img {
+    	height: 100px;
+    	width: 100px;
+    	border: 5px solid #808181;
+    }
+
+    /* FULL WRAP - ICON CONTAINER */
+
+	.full-color-img {
+    	height: 100px;
+    	width: 100px;
+    	border: 5px solid #808181;
+	}
+
+	/* ALA CARTE - ICON CONTAINER */
+
+	.ala-carte-img {
+    	height: 100px;
+    	width: 100px;
+    	border: 5px solid #808181;
+	}
+
+	/* FULL WRAP PAGE BANNER */
+
+	.full-color-wrap-banner-container {
+		min-height: 600px;
+	}
+
+	.full-color-wrap-banner-content {
+		min-height: 600px;
+		background-image: url("../images/zwrap-full-wrap-bg-sm.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	/* ALA CARTE PAGE BANNER */
+
+	.ala-carte-wrap-banner-container {
+		min-height: 600px;
+	}
+
+	.ala-carte-wrap-banner-content {
+		min-height: 600px;
+		background-image: url("../images/ala-carte-wrap-banner-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	/* HOME PAGE BANNER */
+
+	.homepage-banner-container {
+		min-height: 600px;
+		background-image: url("../images/homepage-main-bg.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+		padding: 0;
+	}
+
+	.homepage-banner-group-ala-carte {
+		height: 600px;
+		background-image: url("../images/custom-wrap-main-image.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100%;
+		position: static;
+	}
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	.wrap-info-text {
+		min-height: 150px;
+	}
+
+	/* BANNERS CSS */
+
+	/* FAQS BANNER */
+
+	.faqs-banner-container {
+		min-height: 800px;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	/* SWATCHES BANNER */
+	.zwrap-swatches-page-banner-container {
+		min-height: 750px;
+	}
+
+	.zwrap-swatches-page-banner-content {
+		min-height: 750px;
+		background-image: url("../images/swatches-page-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	/* SWATCHES BANNER */
+	.zwrap-swatches-page-banner-container {
+		min-height: 750px;
+	}
+
+	.zwrap-swatches-page-banner-content {
+		min-height: 750px;
+		background-image: url("../images/swatches-page-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: scroll;
+	}
+
+	/* CUSTOM WRAP BANNER */
+	
+	.custom-wrap-banner-content, .custom-wrap-banner-container {
+    	min-height: 750px;
+	}
+
+	.custom-wrap-banner-1,
+	.custom-wrap-banner-2,
+	.custom-wrap-banner-3,
+	.custom-wrap-banner-4,
+	.custom-wrap-banner-5,
+	.custom-wrap-banner-6 {
+		min-height: 750px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: scroll;
+	}
+
+	/* CUSTOM WRAP GALLERY SLIDER */
+
+	.custom-wrap-img {
+    	height: 110px;
+    	width: 110px;
+    	border: 6px solid #808181;
+    }
+
+    /* FULL WRAP - ICON CONTAINER */
+
+	.full-color-img {
+    	height: 110px;
+    	width: 110px;
+    	border: 6px solid #808181;
+	}
+
+	/* ALA CARTE - ICON CONTAINER */
+
+	.ala-carte-img {
+    	height: 110px;
+    	width: 110px;
+    	border: 6px solid #808181;
+	}
+
+	/* FULL WRAP PAGE BANNER */
+
+	.full-color-wrap-banner-container {
+		min-height: 750px;
+	}
+
+	.full-color-wrap-banner-content {
+		min-height: 750px;
+		background-image: url("../images/zwrap-full-wrap-bg-sm.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	/* ALA CARTE PAGE BANNER */
+
+	.ala-carte-wrap-banner-container {
+		min-height: 750px;
+	}
+
+	.ala-carte-wrap-banner-content {
+		min-height: 750px;
+		background-image: url("../images/ala-carte-wrap-banner-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	/* HOME PAGE BANNER */
+
+	.homepage-banner-container {
+		min-height: 700px;
+		background-image: url("../images/homepage-main-bg.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+		padding: 0;
+	}
+
+	.homepage-banner-group-ala-carte {
+		height: 680px;
+		background-image: url("../images/custom-wrap-main-image.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 86%;
+		position: relative;
+		bottom: -100px;
+		z-index: 100;
+	}
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	/*Code Here... */	
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	h4.tagline-text {
+		font-size: 1.2em;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	h4.tagline-text {
+		font-size: 1em;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	h4.tagline-text {
+		font-size: 1.5em;
+	}
+}
+
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+
+
+/*#carouselGallerySlider .carousel-item {
+	min-height: 600px;
+}*/
+
+/*.homepage-banner-container {
+	min-height: 700px;
+	background-image: url("../images/homepage-main-bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0;
+}
+
+.homepage-banner-group-ala-carte {
+	height: 680px;
+	background-image: url("../images/custom-wrap-main-image.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 86%;
+	position: relative;
+	bottom: -100px;
+	z-index: 100;
+}
+
+.homepage-banner-container {
+	min-height: 280px;
+}
+
+.homepage-banner-group-ala-carte {
+	height: 280px;
+	background-size: 80%;
+	position: static;
+}*/
