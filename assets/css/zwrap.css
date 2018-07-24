@@ -2710,7 +2710,7 @@ a.custom-button-landing:hover {
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 	h4.tagline-text {
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 }
 
